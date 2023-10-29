@@ -13,10 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function () {
-    return (["Uranus", "Jupiter", "Mars", "Aarde", "Saturnus", "Pluto", "Neptunus", "Venus"]);
+    return view('about');
+});
+
+Route::get('/opdracht1', function () {
+    return view('pages/opdracht1');
+});
+
+Route::get('/planets', function () {
+    return view("pages/opdracht2");
 });
