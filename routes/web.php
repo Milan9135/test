@@ -17,14 +17,20 @@ Route::get('/', function () {
     return view('about');
 });
 
-Route::get('/opdracht1', function () {
-    return view('pages/opdracht1');
+Route::get('/EersteRoute', function () {
+    return view('pages/EersteRoute');
 });
 
-// Route::get('/planets', function () {
-//     return view("pages/opdracht2");
-// });
+
+Route::get('/planets1', function () {
+    return view("pages/Views");
+});
+
+Route::get('/planets2', function () {
+    return view("pages/Requests");
+});
+
 
 Route::get('/planets', function () {
-    return view("pages/opdracht3");
+    return view("pages/Controller");
 });

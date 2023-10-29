@@ -18,8 +18,9 @@
     }
 </style>
 <body>
-    <a href="opdracht1">Opdracht 1: De eerste route |</a>
-    <a href="planets">Opdracht 2: Views |</a>
-    <a href="planets">Opdracht 3: Requests |</a>
+    <a href="EersteRoute">Opdracht 1: De eerste route |</a>
+    <a href="planets1">Opdracht 2: Views |</a>
+    <a href="planets2">Opdracht 3: Requests |</a>
+    <a href="planets">Opdracht 4: Controller |</a>
 </body>
 </html>
