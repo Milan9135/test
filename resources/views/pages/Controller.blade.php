@@ -18,20 +18,15 @@
         ],
     ];
 
-    if (request()->has('planet')) {
-        $planet = request('planet');
+    if (isset($planet)) {
         $planet = ucfirst($planet);
         $collection = collect($planets);
-        $filtered = $collection->where('name', $planet);
-        $planets = $filtered;
+        $planets = $collection->where('name', $planet);
     }
 ?>
 
 @foreach ($planets as $planet)
-    <h2>{{ $planet['name'] }}</h2>
+    <h2><a href="planets/{{ $planet['name'] }}">{{ $planet['name'] }}</a></h2>
     <p>{{ $planet['description'] }}</p>
 @endforeach
 
-<br>
-
-<a href="planets/?planet=Mars">planets/?planet=Mars</a>

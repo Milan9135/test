@@ -22,8 +22,7 @@
         $planet = request('planet');
         $planet = ucfirst($planet);
         $collection = collect($planets);
-        $filtered = $collection->where('name', $planet);
-        $planets = $filtered;
+        $planets = $collection->where('name', $planet);
     }
 ?>
 
