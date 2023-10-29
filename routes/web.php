@@ -21,6 +21,10 @@ Route::get('/opdracht1', function () {
     return view('pages/opdracht1');
 });
 
+// Route::get('/planets', function () {
+//     return view("pages/opdracht2");
+// });
+
 Route::get('/planets', function () {
-    return view("pages/opdracht2");
+    return view("pages/opdracht3");
 });

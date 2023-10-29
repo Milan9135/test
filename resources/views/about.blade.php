@@ -18,7 +18,8 @@
     }
 </style>
 <body>
-    <a href="opdracht1">Opdracht: De eerste route |</a>
-    <a href="planets">Opdracht: Views |</a>
+    <a href="opdracht1">Opdracht 1: De eerste route |</a>
+    <a href="planets">Opdracht 2: Views |</a>
+    <a href="planets">Opdracht 3: Requests |</a>
 </body>
 </html>
